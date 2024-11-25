@@ -16,7 +16,7 @@ switch (evento) {
     case 3:
     let equip = Number(prompt(`Digite a quantidade de equipes`));
     let day = Number(prompt(`Digite a quantidade de dias`));
-    let total3 = (equip * 500) + (day * 500);    
+    let total3 = (equip * 500) * day;    
     console.log( `Evento escolhido: Workshop\n Quantidade de Equipes:${equip}\n Quantidade de Dias:${day}\n  Custo total: R$${total3}  `);
     break;
     default:
