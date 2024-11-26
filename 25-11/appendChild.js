@@ -11,3 +11,4 @@ let banana = document.createElement("li");
 banana.innerText = "Batata";
 
 lista.appendChild(banana);
+lista.removeChild(novoItem);
